@@ -1,0 +1,77 @@
+{
+  "title": "16 件套开窗盒（盒面 190×270，四支一列）",
+  "box": {
+    "width_mm": 190,
+    "height_mm": 270,
+    "inner_bottom_mm": 263
+  },
+  "gap_mm": 6,
+  "items": [
+    {
+      "name": "刀",
+      "length_mm": 242,
+      "max_width_mm": 20,
+      "place": {
+        "align": "bottom"
+      }
+    },
+    {
+      "name": "叉",
+      "length_mm": 209,
+      "max_width_mm": 25,
+      "place": {
+        "top_mm": 33
+      }
+    },
+    {
+      "name": "大勺",
+      "length_mm": 205,
+      "max_width_mm": 45,
+      "place": {
+        "top_mm": 33
+      }
+    },
+    {
+      "name": "茶勺",
+      "length_mm": 146,
+      "max_width_mm": 33,
+      "place": {
+        "top_mm": 45
+      }
+    }
+  ],
+  "pitch_overrides": {
+    "刀-叉": 29
+  },
+  "window": {
+    "width_mm": 158,
+    "bottom_mm": 180,
+    "top_profile": [
+      [
+        16,
+        16
+      ],
+      [
+        47,
+        16
+      ],
+      [
+        55,
+        28
+      ],
+      [
+        135,
+        28
+      ],
+      [
+        143,
+        16
+      ],
+      [
+        174,
+        16
+      ]
+    ]
+  },
+  "decoration_top_mm": 5.7
+}

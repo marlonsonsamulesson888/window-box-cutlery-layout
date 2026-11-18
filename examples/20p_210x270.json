@@ -1,0 +1,20 @@
+{
+  "title": "20 件套开窗盒（盒面 210×270，五支一列）",
+  "box": {"width_mm": 210, "height_mm": 270, "inner_bottom_mm": 270},
+  "gap_mm": 6,
+  "items": [
+    {"name": "刀", "length_mm": 242, "max_width_mm": 20, "place": {"align": "bottom"}},
+    {"name": "叉", "length_mm": 209, "max_width_mm": 25, "place": {"head_gap_mm": 6}},
+    {"name": "大勺", "length_mm": 205, "max_width_mm": 45, "place": {"head_gap_mm": 6}},
+    {"name": "茶勺", "length_mm": 146, "max_width_mm": 30, "place": {"top_mm": 45}},
+    {"name": "茶叉", "length_mm": 146, "max_width_mm": 19, "place": {"top_mm": 45}}
+  ],
+  "pitch_overrides": {"刀-叉": 29},
+  "window": {
+    "width_mm": 184,
+    "bottom_mm": 180,
+    "top_profile": [[13, 16], [44, 16], [52, 28], [158, 28], [166, 16], [197, 16]],
+    "inner_corner_radii_mm": [1.5, 3]
+  },
+  "decoration_top_mm": 5.9
+}
